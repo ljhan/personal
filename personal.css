@@ -8,11 +8,11 @@
 
 :root {
 /* COLOR VARIABLES */
---myred: #FFA7AE;
---myyellow: #F8FF82;
---mygreen: #92E888;
---myblue: #87CFFF;
---mypurple: #C3A6F4;
+--myred: #FFA7AE; /* rgb(255, 167, 174) */
+--myyellow: #F8FF82; /* rgb(248, 255, 130) */
+--mygreen: #92E888; /* rgb(146, 232, 136) */
+--myblue: #87CFFF; /* rgb(135, 207, 255) */
+--mypurple: #C3A6F4; /* rgb(195, 166, 244) */
 /* lighter https://coolors.co/ffa7ae-ffffa8-bfffa8-a8d4ff-bea8ff */
 /* darker https://coolors.co/ff99a3-fffd96-abe794-8fd3ff-d9adff */
 /* more vivid https://coolors.co/ff99a3-f8ff82-92e888-87cfff-c3a6f4 */
@@ -21,11 +21,53 @@
 --clearwhite: rgba(255, 255, 255, 0.5);
 }
 
-body {
+/* BACKGROUNDS */
+#home-page {
 	background-image: url("images/gradient.png");
 	background-size: cover;
 	background-color: #f6ebff;
+	overflow: hidden;
 }
+
+#who-page {
+	background-image: url("images/red.png");
+	background-size: cover;
+	background-color: rgba(255, 167, 174, 0.4);
+	overflow: hidden;
+}
+
+#what-page {
+	background-image: url("images/yellow.png");
+	background-size: cover;
+	background-color: rgba(248, 255, 130, 0.4);
+	overflow: hidden;
+}
+
+#when-page {
+	background-image: url("images/green.png");
+	background-size: cover;
+	background-color: rgba(146, 232, 136, 0.4);
+	overflow: hidden;
+}
+
+#where-page {
+	background-image: url("images/blue.png");
+	background-size: cover;
+	background-color: rgba(135, 207, 255, 0.4);
+	overflow: hidden;
+}
+
+#why-page {
+	background-image: url("images/purple.png");
+	background-size: cover;
+	background-color: rgba(195, 166, 244, 0.4);
+	overflow: hidden;
+}
+
+
+/* * * * * */
+
+/*  H  O  M  E    P  A  G  E  */
 
 #topspacer {
 	height: 7em;
@@ -42,7 +84,7 @@ body {
 	font-family: 'Bungee Inline', sans-serif;
 	display: inline-block;
 	text-decoration: none;
-	text-shadow: 2px 2px rgba(255, 255, 255, 0.75);
+	text-shadow: 1px 1px 2px rgba(211, 211, 223, 0.7), 3px 2px rgba(255, 255, 255, 0.75);
 	text-align: center;
 	width: 19%;
 }
@@ -115,43 +157,44 @@ body {
 	color: var(--mygray);
 }
 
-/* WHERE */
-
-.where-title {
-	color: var(--mygreen);
-}
-
-.where-title:hover {
-	color: var(--mygreen);
-	background-color: var(--clearwhite);
-}
-
-.where-title:hover ~ .where {
-	color: white;
-	background-color: var(--mygreen);
-}
-
-.where {
-	color: var(--mygray);
-}
 
 /* WHEN */
 
 .when-title {
-	color: var(--myblue);
+	color: var(--mygreen);
 }
 
 .when-title:hover {
-	color: var(--myblue);
+	color: var(--mygreen);
 	background-color: var(--clearwhite);
 }
 
 .when-title:hover ~ .when {
 	color: white;
-	background-color: var(--myblue);
+	background-color: var(--mygreen);
 }
 
 .when {
+	color: var(--mygray);
+}
+
+/* WHERE */
+
+.where-title {
+	color: var(--myblue);
+}
+
+.where-title:hover {
+	color: var(--myblue);
+	background-color: var(--clearwhite);
+}
+
+.where-title:hover ~ .where {
+	color: white;
+	background-color: var(--myblue);
+}
+
+.where {
 	color: var(--mygray);
 }
 
@@ -174,3 +217,132 @@ body {
 .why {
 	color: var(--mygray);
 }
+
+/*  E N D    H O M E   P A G E  */
+
+/*  * * * * *  5   W ' S   P  A  G  E  S * * * * *  */
+
+p {
+	/*text-align: center;
+	height: 50%;
+	width: 50%;*/
+	/*margin: auto;*/
+	color: var(--mygray);
+	/*text-align: justify;*/
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2em;
+	/*padding: 1em;*/
+	text-shadow: none;
+	padding-top: 0.5em;
+}
+
+h1 {
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+	font-family: 'Bungee Inline', sans-serif; 
+	text-shadow: 1px 1px 2px rgba(211, 211, 223, 0.7), 3px 2px rgba(255, 255, 255, 0.75);
+	text-align: center;
+	font-size: 3.2em;
+	transition-timing-function: ease-in-out;
+	transition: 0.2s;
+}
+
+h1:hover {
+	text-shadow: 1px 1px 2px rgba(211, 211, 223, 0.7), 5px 3px rgba(255, 255, 255, 0.75);
+}
+
+.go-home {
+	margin-left: 1.5%;
+	/*padding-top: 3%;*/
+	color: rgba(255, 255, 255, 0.7);
+	text-shadow: 1px 1px 2px rgba(211, 211, 223, 1);
+	font-size: 2.5em;
+	text-decoration: none;
+	transition-timing-function: ease-in-out;
+	transition: 0.2s;
+}
+
+.go-home:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+/*   *  *  *  *  *  *  *  *  *  *  *  *  *  *  *   */
+
+
+/*  W  H  O    P  A  G  E  */
+#who-title {
+	color: var(--myred);
+}
+
+#who-content {
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 5%;
+
+}
+
+#me-pic {
+	opacity: 0.9;
+	float: left;
+	border-radius: 50%;
+	/*margin-left: 13%;*/
+	margin-right: 10%;
+	display: block;
+	box-shadow: 7px 5px rgba(255, 255, 255, 0.75), -7px -5px rgba(255, 167, 174, 0.75);
+	transition-timing-function: ease-in-out;
+	transition: 0.2s;
+}
+
+#me-text {
+	margin-bottom: 5%;
+}
+
+.me-stats {
+	/*float: right;*/
+	display: inline-block;
+	padding-top: 1.5em;
+	width: 45%;
+}
+
+.me-links {
+	opacity: 0.95;
+	display: inline-block;
+	margin-right: 2%;
+	transition-timing-function: ease-in-out;
+	transition: 0.2s;
+}
+
+.me-links:hover {
+	/*box-shadow: 5px 3px rgba(255, 255, 255, 0.75);*/
+	-webkit-filter: drop-shadow(2px 2px rgba(255, 255, 255,0.75));
+}
+
+/*  W  H  A  T   P  A  G  E  */
+#what-title {
+	color: var(--myyellow);
+}
+
+/*  W  H  E  N    P  A  G  E  */
+#when-title {
+	color: var(--mygreen);
+}
+
+/*  W  H  E  R  E    P  A  G  E  */
+#where-title {
+	color: var(--myblue);
+}
+
+/*  W  H  Y    P  A  G  E  */
+#why-title {
+	color: var(--mypurple);
+}
+
+
+
+
+
