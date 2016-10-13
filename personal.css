@@ -328,8 +328,8 @@ h1:hover {
 }
 
 #peek {
-	font-size: 0.8em;
-	padding: 10%;
+	font-size: 1em;
+	/*padding: 10%;*/
 }
 
 .peek-link {
@@ -348,8 +348,8 @@ h1:hover {
 }
 
 #coming-soon {
-	font-size: 0.8em;
-	padding: 10%;
+	font-size: 1em;
+	/*padding: 10%;*/
 }
 
 /*  W  H  E  R  E    P  A  G  E  */
