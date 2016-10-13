@@ -327,9 +327,29 @@ h1:hover {
 	color: var(--myyellow);
 }
 
+#peek {
+	font-size: 0.8em;
+	padding: 10%;
+}
+
+.peek-link {
+	text-decoration: none;
+	color: var(--mygray);
+}
+
+.peek-link:hover {
+	text-decoration: none;
+	color: var(--mygray);
+}
+
 /*  W  H  E  N    P  A  G  E  */
 #when-title {
 	color: var(--mygreen);
+}
+
+#coming-soon {
+	font-size: 0.8em;
+	padding: 10%;
 }
 
 /*  W  H  E  R  E    P  A  G  E  */
