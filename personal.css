@@ -328,7 +328,7 @@ h1:hover {
 }
 
 #peek {
-	font-size: 7em;
+	font-size: 4em;
 	padding: 10%;
 	margin: auto;
 }
@@ -349,7 +349,7 @@ h1:hover {
 }
 
 #coming-soon {
-	font-size: 7em;
+	font-size: 4em;
 	padding: 10%;
 	margin: auto;
 }
@@ -364,6 +364,17 @@ h1:hover {
 	color: var(--mypurple);
 }
 
+#why-text {
+	font-size: 0.85em;
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+#blog-link {
+	text-decoration: none;
+	color: var(--mypurple);
+}
 
 
 
