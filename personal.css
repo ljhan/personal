@@ -328,9 +328,10 @@ h1:hover {
 }
 
 #peek {
-	font-size: 1em;
-	padding: 10%;
-	margin: auto;
+	font-size: 0.85em;
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 7%;
 }
 
 .peek-link {
@@ -349,9 +350,10 @@ h1:hover {
 }
 
 #coming-soon {
-	font-size: 1em;
-	padding: 10%;
-	margin: auto;
+	font-size: 0.85em;
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 7%;
 }
 
 /*  W  H  E  R  E    P  A  G  E  */
