@@ -1,0 +1,2 @@
+ljhan.com
+/* this is not a cname anymore, must remove this line and file extension in title */
