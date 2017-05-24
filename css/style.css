@@ -11,6 +11,7 @@
   --blue: #87CFFF; /* rgb(135, 207, 255) */
   --purple: #C3A6F4; /* rgb(195, 166, 244) */
   
+  --clearwhite: rgba(255, 255, 255, 0.5);
 }
 
 body {
@@ -214,28 +215,146 @@ a:hover {
 /*  font-size: 2.4vw;*/
   font-size: 3.7vh;
   font-weight: 800;
+  
 /*  text-shadow: 2px 0px 0px rgba(255, 255, 255, 0.3);*/
 }
 
-.who {
+/* COLOR HOVER */
+
+#colors {
+  width: 70%;
+  font-size: 1.1em;
+  font-size: 2vh;
+}
+
+#colors a {
+  display: inline-block;
+}
+
+.who-title {
   color: var(--red);
 }
 
-.what {
+.what-title {
   color: var(--yellow);
 }
 
-.when {
+.when-title {
   color: var(--green);
 }
 
-.where {
+.where-title {
   color: var(--blue);
 }
 
-.why {
+.why-title {
   color: var(--darkpurp);
 }
+
+/* *** *** *** *** COLOR HOVER *** *** *** *** */
+
+/* WHO */
+
+.who-title  {
+	color: var(--red);
+}
+
+.who-title:hover {
+	color: var(--red);
+	background-color: var(--clearwhite);
+}
+
+.who-title:hover ~ .who {
+	color: white;
+	background-color: var(--red);
+}
+
+.who {
+	color: var(--gray);
+}
+
+/* WHAT */
+
+.what-title  {
+	color: var(--yellow);
+}
+
+.what-title:hover {
+	color: var(--yellow);
+	background-color: var(--clearwhite);
+}
+
+.what-title:hover ~ .what {
+	color: var(--gray);
+	background-color: var(--yellow);
+}
+
+.what {
+	color: var(--gray);
+}
+
+
+/* WHEN */
+
+.when-title {
+	color: var(--green);
+}
+
+.when-title:hover {
+	color: var(--green);
+	background-color: var(--clearwhite);
+}
+
+.when-title:hover ~ .when {
+	color: white;
+	background-color: var(--green);
+}
+
+.when {
+	color: var(--gray);
+}
+
+/* WHERE */
+
+.where-title {
+	color: var(--blue);
+}
+
+.where-title:hover {
+	color: var(--blue);
+	background-color: var(--clearwhite);
+}
+
+.where-title:hover ~ .where {
+	color: white;
+	background-color: var(--blue);
+}
+
+.where {
+	color: var(--gray);
+}
+
+/* WHY */
+
+.why-title {
+	color: var(--darkpurp);
+}
+
+.why-title:hover {
+	color: var(--darkpurp);
+	background-color: var(--clearwhite);
+}
+
+.why-title:hover ~ .why {
+	color: white;
+	background-color: var(--darkpurp);
+}
+
+.why {
+	color: var(--gray);
+}
+
+/* *** *** *** *** *** *** *** *** *** *** *** */
 
 #opening-text {
   font-size: 1.1em;
