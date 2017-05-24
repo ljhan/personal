@@ -224,7 +224,7 @@ a:hover {
 #colors {
   width: 70%;
   font-size: 1.1em;
-  font-size: 2vh;
+/*   font-size: 2vh; */
 }
 
 #colors a {
