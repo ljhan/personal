@@ -24,6 +24,10 @@ a {
   color: var(--darkpurp);
 }
 
+a:hover {
+  color: var(--darkdarkpurp);
+}
+
 .et-header {
   display: -webkit-box;
   display: -ms-flexbox;
